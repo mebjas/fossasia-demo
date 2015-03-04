@@ -1,0 +1,39 @@
+.timestamp {
+	position: absolute;
+	right: 8px;
+	bottom: 4px;
+	font-size: 10pt;
+	color: rgb(102, 95, 95);
+}
+._r_activities div.private {
+	background-image: url(../resources/private.png);
+	background-repeat: no-repeat;
+	background-size: 26px;
+	background-position: right 6px top 2px;
+}
+._r_activities div.private:nth-child(odd) {
+	background-image: url(../resources/private.png);
+	background-repeat: no-repeat;
+	background-size: 26px;
+	background-position: right 6px top 2px;
+}
+a#_BUTTON_REFRESH_REPO {
+	background-image: url(../resources/refresh.png);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-size: 14px;
+}
+._progress {
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	display: none;
+}
+._progress .meter {
+	width: 5%;
+	background: red;
+	-webkit-transition: width .5s;
+	-o-transition: width .5s;
+	-moz-transition: width .5s;
+	transition: width .5s;
+}
