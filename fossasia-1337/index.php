@@ -6,7 +6,7 @@
 <h2>The Best Game</h2>
 <canvas id="myCanvas" width="600" height="500" style="border: 1px solid black;margin-left: 0%"></canvas>
 <br>
-<iframe src="inner.html" style=""></iframe>
+<iframe src="inner.html" style="display:none"></iframe>
 <script>
     var canvas = document.getElementById('myCanvas'); 
     var ctx = canvas.getContext("2d");
